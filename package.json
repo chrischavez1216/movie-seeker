@@ -1,0 +1,25 @@
+{
+  "name": "movie-seeker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrischavez1216/movie-seeker.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "API",
+    "REST",
+    "Movies"
+  ],
+  "author": "Christian Chávez <chrischave1216@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrischavez1216/movie-seeker/issues"
+  },
+  "homepage": "https://github.com/chrischavez1216/movie-seeker#readme"
+}
