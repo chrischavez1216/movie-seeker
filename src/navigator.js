@@ -17,7 +17,7 @@ function navigator(){
 
 function homePage(){
     header.classList.remove('header-container--long');
-    header.style.backgroung = '';
+    header.style.background = '';
     headerArrow.classList.add('inactive');
     h1CategoryHeader.classList.add('inactive');
     h1MovieSeeker.classList.remove('inactive');
@@ -141,7 +141,7 @@ function categoriesPage(){
 
 headerArrow.addEventListener('click', () => {
     history.back();
-    header.style.backgroung = '';
+    header.style.background = '';
 })
 
 trendsSeeMoreButton.addEventListener('click', () => {

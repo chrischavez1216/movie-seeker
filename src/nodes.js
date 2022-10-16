@@ -1,6 +1,7 @@
 
 // SECTIONS
 const headerHome = document.querySelector('.header-container');
+const header = document.querySelector('.header-container');
 
 const popularSection = document.querySelector('#mainPopular');
 const categoriesPreview = document.querySelector('#previewCategories');
