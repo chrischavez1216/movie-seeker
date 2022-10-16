@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/chrischavez1216/movie-seeker/issues"
   },
-  "homepage": "https://github.com/chrischavez1216/movie-seeker#readme"
+  "homepage": "https://github.com/chrischavez1216/movie-seeker#readme",
+  "dependencies": {
+    "axios": "^1.1.2"
+  }
 }

@@ -6,11 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Seeker</title>
     <link rel="stylesheet" href="./styles/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Movie Seeker</h1>
+    <header id="header" class="header-container ">
+
+        <div class="header-title ">
+            <h1 class="movie-seeker ">Movie Seeker</h1>
+            <h1 class="header-category-view ">Action</h1>
+
+            <!-- <div class="category-picture--header">
+                <div class="category-container">
+                  <p class="category-picture--title">ACTION</p>
+              </div> 
+            </div> -->
+
+            <img class="menu-icon" src="./assets/icons/menu.png" alt="menu">
+        </div>
+        <img class="header-arrow inactive" src="./assets/icons/left-arrow.png" alt="back">
+
+
+
+        <form id="searchForm" class="header-search-form">
+            <input class="header-search-bar" type="text" placeholder="Search">
+            <button id="searchButton"><img src="./assets/icons/search.png" alt="buscar"></button>
+        </form>
+    </header>
+
+    <main>
+
+        <section id="mainPopular" class="main-popular">
+          <div class="main-popular__head-container">
+            <p>TRENDS</p>
+            <button id="trendsButton" >See more</button>
+          </div>
+            <div class="main-popular-slider">
+                <!-- <div class="movie-card">
+                    <img 
+                    class="movie-img" 
+                    src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" 
+                    alt="Nombre de pelicula" 
+                    />
+                </div> -->
+            </div>
+            
+        </section>
+
+        <h3 class="categories-p ">CATEGORIES</h3>
+
+        <section id="previewCategories" class="preview-categories">
+            <!-- <div class="category-container">
+                <p class="category-picture--title">ACTION</p>
+            </div> -->      
+        </section>
+
+        <section id="genericList" class="generic-list-container">
+
+            <!-- <div class="movie-container">
+              <img
+                src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+                class="movie-img"
+                alt="Nombre de la película"
+              />
+            </div> -->
     
+          </section>
+
+        <section id="movieDetail" class="movieDetail-container inactive">
+            <h2 class="movieDetail-title"></h2>
+            <span class="movieDetail-score">7.6</span>
+            <p class="movieDetail-description">
+              Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.
+            </p>
+        
+            <article class="preview-categories--movie-detail ">
+
+              <!-- <div class="category-container category-container__movie-detail">
+                <p class="category-picture--title">ACTION</p>
+            </div> -->
+
+            </article>
+        
+            <article class="relatedMovies-container">
+              <h2 class="relatedMovies-title">Similar Movies</h2>
+        
+              <div class="relatedMovies-scrollContainer">
+                <div class="movie-container">
+                  <img
+                    src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+                    class="movie-img"
+                    alt="Nombre de la película"
+                  />
+                </div>
+                
+                <div class="movie-container">
+                  <img
+                    src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+                    class="movie-img"
+                    alt="Nombre de la película"
+                  />
+                </div>
+                
+                <div class="movie-container">
+                  <img
+                    src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+                    class="movie-img"
+                    alt="Nombre de la película"
+                  />
+                </div>
+              </div>
+            </article>
+            </section>
+
+    </main>
+
+    <footer class="">
+        <div class="chcv-footer">
+            <p>Develop</p>
+            <a href=""><img src="./assets/img/chcv_logo_white.png" alt="CHCV logo"></a>
+        </div>
+        <p>2022</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="./src/secret.js"></script>
+    <script src="./src/nodes.js"></script>
     <script src="./src/main.js"></script>
+    <script src="./src/navigator.js"></script>
 </body>
 </html>
